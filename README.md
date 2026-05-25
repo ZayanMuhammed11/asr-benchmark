@@ -95,31 +95,26 @@ To reproduce: open `indic_conformer.ipynb` in Google Colab (T4 runtime) and run 
 ---
 
 ## Project Structure
-asr-benchmark/
-├── recordings/                  22 WAV files + metadata.csv
-├── transcripts/                 22 reference TXT files
-├── results/
-│   ├── combined_results.csv     88 rows — 22 files × 4 models
-│   ├── deepgram_results.csv
-│   ├── sarvam_results.csv
-│   ├── whisper_results.csv
-│   ├── indicconformer_results.csv
-│   ├── llm_extraction_comparison.csv
-│   ├── open_source_results.csv
-│   └── charts/                  5 PNG charts
-├── pipeline.py                  Inference — Deepgram + Sarvam + Whisper
-├── metrics.py                   WER, CER, entity accuracy, fuzzy matching
-├── analyse.py                   Chart generation
-├── llm_extraction.py            ASR → Llama-3 NER pipeline
-├── open_source_eval.py          FLEURS Hindi evaluation
-├── process_indicconformer.py    Merges Colab output with metadata
-├── generate_report.py           Generates report.docx
-├── verify_submission.py         Cross-checks all numbers against CSVs
-├── indic_conformer.ipynb        IndicConformer Colab notebook
-├── project_log.md               Full decision log
-├── requirements.txt
-├── .env.example
-└── report.docx
+
+| File / Folder | Purpose |
+|---|---|
+| `recordings/` | 22 WAV files + metadata.csv |
+| `transcripts/` | 22 reference TXT files (one per WAV) |
+| `results/combined_results.csv` | 88 rows — 22 files × 4 models |
+| `results/charts/` | 5 PNG charts |
+| `pipeline.py` | Inference — Deepgram + Sarvam + Whisper on all 22 files |
+| `metrics.py` | WER, CER, entity accuracy, fuzzy matching |
+| `analyse.py` | Chart generation from combined_results.csv |
+| `llm_extraction.py` | ASR → Llama-3 NER two-stage pipeline |
+| `open_source_eval.py` | FLEURS Hindi external evaluation |
+| `process_indicconformer.py` | Merges Colab IndicConformer output with metadata |
+| `generate_report.py` | Generates report.docx |
+| `verify_submission.py` | Cross-checks all numbers against CSVs |
+| `indic_conformer.ipynb` | IndicConformer Colab notebook (T4 GPU) |
+| `project_log.md` | Full decision log — every choice and tradeoff |
+| `requirements.txt` | Python dependencies |
+| `.env.example` | API key template |
+| `report.docx` | Final benchmark report |
 
 ---
 
