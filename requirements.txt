@@ -1,0 +1,35 @@
+# ASR Benchmark — Python Dependencies
+# Python 3.12.7 | Windows 10/11
+# Install: pip install -r requirements.txt
+
+# ASR APIs
+deepgram-sdk==7.2.0
+sarvamai==0.1.28
+
+# Local ASR
+faster-whisper
+
+# LLM extraction
+groq==1.2.0
+
+# Metrics
+jiwer==4.0.0
+rapidfuzz==3.14.5
+
+# Data and audio
+pandas
+numpy
+soundfile
+datasets
+
+# Visualization
+matplotlib
+seaborn==0.13.2
+
+# Utilities
+tqdm
+python-dotenv==1.2.2
+requests
+
+# Report generation
+python-docx

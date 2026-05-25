@@ -1,0 +1,19 @@
+# API keys 
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+vaah/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model cache
+*.bin
+*.pt
+*.pth

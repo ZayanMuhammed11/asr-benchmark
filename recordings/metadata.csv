@@ -1,0 +1,23 @@
+filename,speaker,gender,condition,locality
+01_koramangala_quiet.wav,speaker1,male,quiet,Koramangala
+02_indiranagar_noisy.wav,speaker2,female,noisy,Indiranagar
+03_whitefield_quiet.wav,speaker2,female,quiet,Whitefield
+04_electroniccity_noisy.wav,speaker1,male,noisy,Electronic City
+05_marathahalli_whispered.wav,speaker1,male,whispered,Marathahalli
+06_jayanagar_quiet.wav,speaker1,male,quiet,Jayanagar
+07_rajajinagar_noisy.wav,speaker1,male,noisy,Rajajinagar
+08_hebbal_rushed.wav,speaker2,female,rushed,Hebbal
+09_yelahanka_quiet.wav,speaker1,male,quiet,Yelahanka
+10_banashankari_noisy.wav,speaker2,female,noisy,Banashankari
+11_hsrlayout_quiet.wav,speaker1,male,quiet,HSR Layout
+12_btmlayout_noisy.wav,speaker1,male,noisy,BTM Layout
+13_majestic_rushed.wav,speaker1,male,rushed,Majestic
+14_silkboard_noisy.wav,speaker1,male,noisy,Silk Board
+15_bellandur_quiet.wav,speaker1,male,quiet,Bellandur
+16_sarjapur_whispered.wav,speaker2,female,whispered,Sarjapur
+17_bommanahalli_noisy.wav,speaker1,male,noisy,Bommanahalli
+18_krpuram_rushed.wav,speaker1,male,rushed,KR Puram
+19_peenya_quiet.wav,speaker2,female,quiet,Peenya
+20_yeshwanthpur_noisy.wav,speaker1,male,noisy,Yeshwanthpur
+21_koramangala_english_quiet.wav,speaker1,male,quiet,Koramangala
+22_indiranagar_english_noisy.wav,speaker2,female,noisy,Indiranagar

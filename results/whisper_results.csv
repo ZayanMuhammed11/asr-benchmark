@@ -1,0 +1,23 @@
+filename,model,locality,condition,gender,reference,hypothesis,wer,cer,entity_correct,latency_sec
+01_koramangala_quiet.wav,whisper-medium,Koramangala,quiet,male,haan bhai main koramangala mein rehta hoon near sony world signal,ह बई म करम अगल म रहत ह नय सन वरड सखनल,1.0909,0.8462,False,15.468
+02_indiranagar_noisy.wav,whisper-medium,Indiranagar,noisy,female,mera ghar indiranagar mein hai hundred feet road ke paas,मर कहर इदरनगर म ह 100 फट रड क पस,1.0,0.8393,True,12.484
+03_whitefield_quiet.wav,whisper-medium,Whitefield,quiet,female,main whitefield se hoon office bhi wahee hai,म वईट फल स ह और फज भ वह ह,1.25,0.8409,False,10.653
+04_electroniccity_noisy.wav,whisper-medium,Electronic City,noisy,male,haan sir electronic city phase 1 mein kaam karta hoon,हइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइपइप,1.0,1.6792,False,31.585
+05_marathahalli_whispered.wav,whisper-medium,Marathahalli,whispered,male,abhi marathahalli bridge ke paas hoon thoda busy area hai,अभ मरतल बढजक पसन तड अभ सरय ह,1.0,0.8772,True,11.563
+06_jayanagar_quiet.wav,whisper-medium,Jayanagar,quiet,male,main jayanagar mein rehta hoon fourth block,म जनकर म रत ह 4 पलक,1.0,0.8605,True,10.168
+07_rajajinagar_noisy.wav,whisper-medium,Rajajinagar,noisy,male,rajajinagar mein ek room dhoondh raha hoon budget kam hai,रयजतनकर म रम दनद रह ह बरजत कम ह,1.0,0.8596,True,11.478
+08_hebbal_rushed.wav,whisper-medium,Hebbal,rushed,female,haa haa hebbal flyover ke paas rehta hoon jaldi batao,ह ह ह बलफलयर क पस रलत ह जलद बत ह,1.1,0.8302,False,12.229
+09_yelahanka_quiet.wav,whisper-medium,Yelahanka,quiet,male,yelahanka mein ek naya flat liya hai humne,यलहग म एक नह फलट लय ह हमन,1.0,0.8333,True,11.16
+10_banashankari_noisy.wav,whisper-medium,Banashankari,noisy,female,banashankari second stage mein rehta hoon bhai,बनशगर सकन सकज म रहत हबई,1.0,0.8913,True,11.819
+11_hsrlayout_quiet.wav,whisper-medium,HSR Layout,quiet,male,ji haan mera address hsr layout hai sector 2,ज ह मर अडरस हसर ल वट ह सकटर ट,1.1111,0.8182,False,11.183
+12_btmlayout_noisy.wav,whisper-medium,BTM Layout,noisy,male,btm layout mein hoon yaar stage 1 side,बटम लवट म ह यर कगआ सड,1.0,0.8421,False,10.585
+13_majestic_rushed.wav,whisper-medium,Majestic,rushed,male,main abhi majestic bus stand ke paas hoon thoda wait karo,म अभ मजसचक बस क बसन तड वट कर,1.0,0.8596,True,11.756
+14_silkboard_noisy.wav,whisper-medium,Silk Board,noisy,male,yaar silk board pe bahut jam hai ek ghante se khada hoon,यर सलबरत बक जन ह एक जड स खड ह,1.0,0.8393,False,11.276
+15_bellandur_quiet.wav,whisper-medium,Bellandur,quiet,male,bellandur lake ke paas ek pg mein rehta hoon,बलनदर लक क पस एक पज म रहत ह,1.0,0.8182,True,12.378
+16_sarjapur_whispered.wav,whisper-medium,Sarjapur,whispered,female,sarjarpur road pe shift ho gaya hoon main pichhle mahine,सरचरप रट भ शफट ह गई ह म भचल महन,1.0,0.8393,True,12.711
+17_bommanahalli_noisy.wav,whisper-medium,Bommanahalli,noisy,male,bommanahalli mein kaam dhundh raha hoon koi vacancy hai kya,बममनहलम कम दन रह ह कई वकनस ह कय,1.0,0.8644,True,10.938
+18_krpuram_rushed.wav,whisper-medium,KR Puram,rushed,male,kr puram station ke paas hoon baad mein baat karta hoon,क आरपरम सटशन क पस ह बद म बत करत ह,1.0,0.8182,True,11.464
+19_peenya_quiet.wav,whisper-medium,Peenya,quiet,female,peenya industrial area mein ek factory mein kaam karta hoon,pa industrial area म factory म कम करत ह,0.7,0.4746,False,12.488
+20_yeshwanthpur_noisy.wav,whisper-medium,Yeshwanthpur,noisy,male,haan bhai yeshwanthpur station ke paas hi rehta hoon,ह बई इसतनदबरपषय क पस रह ह,1.0,0.8846,True,11.129
+21_koramangala_english_quiet.wav,whisper-medium,Koramangala,quiet,male,yes im currently staying in koramangala near the sony signal area,yes i am currently staying in korimangala near the sony signal area,0.2727,0.0462,True,9.346
+22_indiranagar_english_noisy.wav,whisper-medium,Indiranagar,noisy,female,can you send the package to my indiranagar address before friday evening,can you send the package to my indira nagar address before friday evening,0.1667,0.0139,True,9.124
