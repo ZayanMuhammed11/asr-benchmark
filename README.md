@@ -147,4 +147,7 @@ To reproduce: open `indic_conformer.ipynb` in Google Colab (T4 runtime) and run 
 - Sarvam `mode="translit"` — `"transcribe"` returns Devanagari, WER=1.0 for all files
 - Whisper outputs Devanagari for Hindi — Devanagari aliases added to entity matcher
 - Fuzzy match threshold 85 not 80 — "electronic city" matched "electricity" at 84.6
-- Whisper ran on CPU (int8) — GTX 1660 missing CUDA cublas DLL
+- - Whisper ran on CPU (int8 quantization) — GTX 1660 missing CUDA cublas DLL. 
+  GPU inference validated on tiny model only. Latency of 12.4s is a CPU baseline; 
+  GPU would be ~1-2s but Devanagari output issue and Sarvam's 0.7s latency 
+  still make Whisper non-competitive for this use case.
