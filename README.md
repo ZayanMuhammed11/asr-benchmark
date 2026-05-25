@@ -74,7 +74,7 @@ python analyse.py
 # LLM extraction comparison (ASR output → Llama-3 NER)
 python llm_extraction.py
 
-# Open-source dataset evaluation (FLEURS Hindi)
+# Open-source dataset evaluation 
 python open_source_eval.py
 
 # Generate report.docx
