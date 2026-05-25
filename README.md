@@ -80,8 +80,7 @@ python open_source_eval.py
 # Generate report.docx
 python generate_report.py
 
-# Verify all numbers match CSVs
-python verify_submission.py
+
 ```
 
 ---
