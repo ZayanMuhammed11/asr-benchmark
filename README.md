@@ -29,7 +29,7 @@ Full findings in [report.docx](report.docx)
 - Bangalore locality names in natural conversational sentences
 - Two speakers: male (16 files), female (6 files), Malayalam-accented Hindi
 - Conditions: quiet (8), noisy (9), rushed (3), whispered (2)
-- External validation: FLEURS Hindi test split (20 samples)
+- - External validation: FLEURS Hindi (20 samples) + Kathbath Hindi (20 samples, 203 districts)
 
 ---
 
