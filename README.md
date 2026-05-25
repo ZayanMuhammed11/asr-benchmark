@@ -105,12 +105,10 @@ To reproduce: open `indic_conformer.ipynb` in Google Colab (T4 runtime) and run 
 | `metrics.py` | WER, CER, entity accuracy, fuzzy matching |
 | `analyse.py` | Chart generation from combined_results.csv |
 | `llm_extraction.py` | ASR → Llama-3 NER two-stage pipeline |
-| `open_source_eval.py` | FLEURS Hindi external evaluation |
+| `open_source_eval.py` | FLEURS Hindi,Kathbath Hindi external evaluation |
 | `process_indicconformer.py` | Merges Colab IndicConformer output with metadata |
 | `generate_report.py` | Generates report.docx |
-| `verify_submission.py` | Cross-checks all numbers against CSVs |
 | `indic_conformer.ipynb` | IndicConformer Colab notebook (T4 GPU) |
-| `project_log.md` | Full decision log — every choice and tradeoff |
 | `requirements.txt` | Python dependencies |
 | `.env.example` | API key template |
 | `report.docx` | Final benchmark report |
