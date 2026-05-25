@@ -77,10 +77,6 @@ python llm_extraction.py
 # Open-source dataset evaluation 
 python open_source_eval.py
 
-# Generate report.docx
-python generate_report.py
-
-
 ```
 
 ---
@@ -107,7 +103,6 @@ To reproduce: open `indic_conformer.ipynb` in Google Colab (T4 runtime) and run 
 | `llm_extraction.py` | ASR → Llama-3 NER two-stage pipeline |
 | `open_source_eval.py` | FLEURS Hindi,Kathbath Hindi external evaluation |
 | `process_indicconformer.py` | Merges Colab IndicConformer output with metadata |
-| `generate_report.py` | Generates report.docx |
 | `indic_conformer.ipynb` | IndicConformer Colab notebook (T4 GPU) |
 | `requirements.txt` | Python dependencies |
 | `.env.example` | API key template |
